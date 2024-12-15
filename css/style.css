@@ -1,0 +1,166 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* nav */
+
+.navTap {
+    font-weight: 600;
+}
+
+.navName {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed !important;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.594);
+}
+
+/* end */
+/* haeder */
+.HeadSection {
+    background-image: url(../imgs/IMG_٢٠٢٤١٢١٢_١١٠٩٣٩.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.HeadSection .layer {
+    background-color: rgba(0, 0, 0, 0.777);
+    z-index: 9;
+    height: 100vh;
+}
+
+.HeadSection .texthead {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.HeadSection .texthead h2 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:600px) {
+    .texthead h2 {
+        font-size: 30px !important;
+    }
+
+    .texthead p {
+        font-size: 15px !important;
+    }
+}
+
+/* end */
+/* about section */
+.aboutSection .container {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.136);
+    padding: 5px;
+}
+
+.aboutSection .headline h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.aboutSection .aboutSumary {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    color: rgb(136, 136, 137);
+    font-weight: 500;
+}
+
+@media screen and (max-width:600px) {
+    .aboutSection .aboutSumary {
+        font-size: 15px;
+        color: rgb(136, 136, 137);
+        font-weight: 500;
+        padding: 25px;
+    }
+}
+@media screen and (max-width:850px) {
+    .aboutSection .aboutSumary {
+        font-size: 17px;
+        color: rgb(136, 136, 137);
+        font-weight: 500;
+        padding: 25px;
+    }
+}
+/* end */
+/* skills */
+/* .skills{
+    background-color: rgba(81, 113, 113, 0.727);
+} */
+.skills .headline h3{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.skills .progress{
+    background-color: rgb(174, 172, 172);
+}
+.skills .progress-bar{
+    background-color: rgba(45, 120, 120, 0.692) !important;
+}
+/* end */
+/* experience */
+.experience .headline h3{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.experience{
+    position: relative;
+}
+.experience .centerLine{
+    height: 100vh;
+    width: 2px;
+    background-color: rgba(45, 120, 120, 0.692);
+    position: absolute;
+    left: 47%;
+    top: 7%;
+}
+.experience h6{
+    font-size: small;
+    color: rgb(45, 120, 120);
+}
+.experience p {
+    font-size: medium;
+}
+.experience li{
+    color: rgba(103, 101, 101, 0.832);
+    font-weight: 600;
+    font-style: oblique;
+}
+@media screen  and (max-width : 992px){
+    .experience .centerLine{
+        display: none;
+    }
+}
+@media screen and (min-width :992px) {
+    .experience .centerLine{
+        height: 124vh;
+    }   
+}
+@media screen and (min-width :1200px) {
+    .experience .centerLine{
+        height: 112vh;
+    }   
+}
+@media screen and (min-width :1400px) {
+    .experience .centerLine{
+        height: 100vh;
+    }   
+}
+/* end */
+
